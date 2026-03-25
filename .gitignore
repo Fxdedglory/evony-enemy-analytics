@@ -1,0 +1,15 @@
+__pycache__/
+.venv/
+.env
+target/
+dbt_packages/
+.pytest_cache/
+*.pyc
+*.pyo
+*.parquet
+logs/*.log
+data/bronze/raw/*.txt
+data/bronze/parsed/*.parquet
+data/silver/*.parquet
+data/gold/*.parquet
+.streamlit/

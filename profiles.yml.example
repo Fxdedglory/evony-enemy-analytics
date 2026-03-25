@@ -1,0 +1,12 @@
+evony_enemy_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      port: 5432
+      dbname: evony_enemy_analytics
+      schema: public
+      threads: 4

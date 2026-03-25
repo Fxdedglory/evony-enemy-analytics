@@ -1,0 +1,18 @@
+﻿name: evony_enemy_analytics
+version: "1.0.0"
+config-version: 2
+
+profile: evony_enemy_analytics
+
+model-paths: ["dbt/models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  evony_enemy_analytics:
+    staging:
+      +schema: silver
+      +materialized: view
+    marts:
+      +schema: gold
+      +materialized: view

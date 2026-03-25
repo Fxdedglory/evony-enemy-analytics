@@ -13,3 +13,5 @@ data/bronze/parsed/*.parquet
 data/silver/*.parquet
 data/gold/*.parquet
 .streamlit/
+
+.dbt/

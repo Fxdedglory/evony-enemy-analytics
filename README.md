@@ -1,5 +1,3 @@
-Replace `E:\Evony\evony_enemy_analytics\README.md` with this:
-
 ````md
 # Evony Enemy Analytics
 
